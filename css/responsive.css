@@ -1,0 +1,372 @@
+@media (max-width: 1200px) {
+  .Wrap {
+    width: 90%;
+    margin: 0% auto;
+  }
+
+  #Banner h1 {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    margin: 30px auto;
+  }
+
+  .Card {
+    width: 17%;
+    margin: 10px;
+  }
+
+  .Card .Descripcion {
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  #Articulos {
+    width: 60%;
+  }
+
+  #Articulos article {
+    width: 97%;
+  }
+
+  #Footer .Wrap > div {
+    width: 25%;
+    margin: 4%;
+  }
+
+  #Footer a img {
+    width: 14%;
+  }
+
+  #Footer h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 944px) {
+  /*#Banner h1 {
+    font-size: 25px;
+    text-align: center;
+    margin: 35px auto;
+  }*/
+  .Card .Categoria {
+    font-size: 15px;
+  }
+  .Card .Descripcion {
+    font-size: 13px;
+  }
+
+  #Articulos {
+    width: 57%;
+  }
+
+  #Footer a img {
+    width: 14%;
+  }
+}
+
+@media (max-width: 888px) {
+  #Banner h1 {
+    font-size: 25px;
+    text-align: left;
+    margin: 35px auto;
+    padding-left: 90px;
+  }
+
+  .Card {
+    width: 15%;
+    margin: 17px;
+  }
+
+  #Articulos {
+    width: 53%;
+  }
+
+  #Footer h3 {
+    font-size: 25px;
+  }
+  #Footer .HTML {
+    width: 100%;
+  }
+}
+
+@media (max-width: 844px) {
+  #Banner h1 {
+    width: 90%;
+    font-size: 25px;
+    text-align: center;
+    margin: 35px auto;
+    padding-left: 15px;
+  }
+
+  #Articulos {
+    width: 65%;
+  }
+
+  #Lateral {
+    width: 25%;
+  }
+
+  #Lateral input[type="text"] {
+    width: 78%;
+  }
+
+  .Cajas {
+    width: 95%;
+    min-height: 150px;
+    height: auto;
+    padding: 10px;
+  }
+
+  #Login a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #Login input[type="email"],
+  #Login input[type="password"] {
+    width: 65%;
+  }
+
+  #Usuario,
+  #Contraseña {
+    margin-left: 25px;
+  }
+
+  #Lateral input[type="submit"],
+  #Lateral button {
+    margin-bottom: 0px;
+  }
+
+  #Lateral input[type="reset"] {
+    display: none;
+  }
+
+  #Lateral h3 {
+    font-size: 25px;
+  }
+
+  .Card {
+    width: 15%;
+    margin: 15px;
+  }
+
+  #Footer .HTML {
+    width: 95%;
+  }
+}
+
+@media (max-width: 755px) {
+  #Banner h1 {
+    font-size: 24px;
+  }
+
+  .Card {
+    width: 15%;
+    margin: 13px;
+    height: 200px;
+  }
+
+  .Card .Categoria {
+    font-size: 15px;
+  }
+
+  .Card .Descripcion {
+    display: none;
+  }
+}
+
+@media (max-width: 736px) {
+  #Banner h1 {
+    font-size: 21px;
+  }
+  #Lateral input[type="text"] {
+    width: 72%;
+  }
+
+  #Lateral h3 {
+    font-size: 23px;
+  }
+
+  #Footer h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 701px) {
+  #Header {
+    width: 100%;
+    height: 120px;
+    padding-top: 15px;
+  }
+
+  #Menu {
+    clear: both;
+    width: 440px;
+    float: none;
+    margin: 0px auto;
+    padding-left: 40px;
+  }
+
+  #Logo {
+    float: none;
+    width: 200px;
+    margin: 0px auto;
+  }
+
+  #Lateral h3 {
+    font-size: 20px;
+  }
+
+  #Footer h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 668px) {
+  #Banner h1 {
+    font-size: 20px;
+  }
+
+  #Articulos {
+    float: none;
+    width: 100%;
+    margin: 0px auto;
+  }
+  #Lateral {
+    float: none;
+    width: 100%;
+    margin: 0px auto;
+    min-height: auto;
+    margin-top: 20px;
+  }
+
+  #Lateral input[type="text"] {
+    width: 92%;
+  }
+
+  #Identificador a img {
+    width: 60px;
+  }
+
+  .Card {
+    margin: 0px auto;
+    padding: 12px;
+  }
+
+  #Footer {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  #Footer .HTML {
+    width: 70%;
+  }
+
+  #Footer .Wrap > div {
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 15px;
+  }
+
+  #Footer h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 622px) {
+  .Card {
+    margin: 0px;
+    padding: 10px;
+    height: 135px;
+  }
+
+  .Card p {
+    margin-top: -20px;
+  }
+
+  .Card .Icono,
+  .Card:hover .Icono {
+    font-size: 30px;
+  }
+
+  .Card .Categoria,
+  .Card:hover .Categoria {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 535px) {
+  #Header {    
+    height: 275px;
+    padding-top: 10px;
+  }
+
+  #Logo {
+    float: left;    
+  }
+
+  #Menu {    
+    margin: 0px auto;
+  }
+
+  #Menu ul li{
+    width: 100%;
+    line-height: 55px;
+    margin-left: -20px;  
+  }
+
+  #Menu ul li a:hover {
+    color: #37bcf9;
+    transform: scale(1,1);
+  }
+
+  #Banner {
+    height: 90px;
+  }
+
+  #Banner h1 {
+    margin-top: 20px;
+  }
+
+  #Cards .Card {
+    width: 93%;
+    height: auto;
+    text-align: center;
+    margin: 5px;
+  }
+
+  .Card .Icono {
+    margin-top: -40px;
+  }
+
+  .Card .Categoria {
+    margin-top: -25px;
+  }
+
+  .Card .Icono,
+  .Card:hover .Icono {
+    font-size: 30px;
+  }
+
+  .Card .Categoria,
+  .Card:hover .Categoria {
+    font-size: 13px;
+  }
+
+  #Articulos .Articulo{
+    float: none;
+    margin: -10px;
+    text-align: left;
+    border-radius: 0px;
+}
+
+.Titulos {
+  margin-top: 20px;
+}
+
+
+}
